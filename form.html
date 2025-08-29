@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <center>
+<h1 align="center">Aditya Degree College for Women, Kakinada</h1>
+<h2 align="center">Student Registration Form</h2>
+<form method="POST" action="form.php" style="margin-left: 40px;">
+    Full Name: <input type="text" name="name" placeholder="Enter your full name"><br><br>
+    Email: <input type="email" name="email" placeholder="Enter your email"><br><br>
+    Phone Number: <input type="number" name="phone" placeholder="Enter your phone number"><br><br>
+    Gender:
+        <input type="radio" name="gender" value="Male" > Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+    Date of Birth: <input type="date" name="dob" ><br><br>
+    SUC Code: <input type="number" name="suc_code" placeholder="Enter SUC code"><br><br>
+    Hall Ticket No: <input type="number" name="hall_ticket" placeholder="Enter hall ticket number" ><br><br>
+   
+    Select Course(s):<br>
+        <input type="checkbox" name="courses[]" value="ML"> Machine Learning<br>
+        <input type="checkbox" name="courses[]" value="Python"> Python<br>
+        <input type="checkbox" name="courses[]" value="PowerBI"> Power BI<br>
+        <input type="checkbox" name="courses[]" value="Azure"> Azure<br><br>
+    <input type="submit" name="submit" value="Register">
+</form>
+</body>
+</html>
